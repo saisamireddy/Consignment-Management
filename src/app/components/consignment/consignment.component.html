@@ -1,0 +1,19 @@
+<table class="table">
+    <thead>
+      <tr>
+         <th scope="col">ConsignmentID</th>
+        <th scope="col">CondignmentCatogery</th>
+        <th scope="col">deliveryPatner</th>
+        <th scope="col">ConsignmentStatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let x of consignments">
+        <td>{{x.consignmentId}}</td>
+        <td>{{x.consignmentCatogery}}</td>
+        <td>{{x.deliveryPatner}}</td>
+        <td>{{x.consignmentStatus}}</td>
+      </tr>
+    </tbody>
+</table>
+
